@@ -1,0 +1,262 @@
+{
+  "Creality": {
+    "ender3": {
+      "name": "Ender 3",
+      "connection": "sd",
+      "multicolor": false,
+      "max_x": 220,
+      "max_y": 220,
+      "max_z": 250
+    },
+    "ender-3-v2": {
+      "name": "Ender 3 V2",
+      "connection": "sd",
+      "multicolor": false,
+      "max_x": 220,
+      "max_y": 220,
+      "max_z": 250
+    },
+    "ender-3-v3-ke": {
+      "name": "Ender-3 V3 KE",
+      "connection": "cloud",
+      "multicolor": false,
+      "max_x": 220,
+      "max_y": 220,
+      "max_z": 250
+    },
+    "ender-3-s1": {
+      "name": "Ender 3 S1",
+      "connection": "sd",
+      "multicolor": false,
+      "max_x": 220,
+      "max_y": 220,
+      "max_z": 270
+    },
+    "ender-3-s1-pro": {
+      "name": "Ender 3 S1 Pro",
+      "connection": "sd",
+      "multicolor": false,
+      "max_x": 220,
+      "max_y": 220,
+      "max_z": 270
+    },
+    "ender-5": {
+      "name": "Ender 5",
+      "connection": "sd",
+      "multicolor": false,
+      "max_x": 220,
+      "max_y": 220,
+      "max_z": 300
+    },
+    "ender-5-plus": {
+      "name": "Ender 5 Plus",
+      "connection": "sd",
+      "multicolor": false,
+      "max_x": 350,
+      "max_y": 350,
+      "max_z": 400
+    },
+    "ender-6": {
+      "name": "Ender 6",
+      "connection": "cloud",
+      "multicolor": false,
+      "max_x": 250,
+      "max_y": 250,
+      "max_z": 400
+    },
+    "ender-7": {
+      "name": "Ender 7",
+      "connection": "sd",
+      "multicolor": false,
+      "max_x": 255,
+      "max_y": 255,
+      "max_z": 300
+    },
+    "cr-10": {
+      "name": "CR-10",
+      "connection": "sd",
+      "multicolor": false,
+      "max_x": 300,
+      "max_y": 300,
+      "max_z": 400
+    },
+    "cr-10-v2": {
+      "name": "CR-10 V2",
+      "connection": "sd",
+      "multicolor": false,
+      "max_x": 300,
+      "max_y": 300,
+      "max_z": 400
+    },
+    "cr-10-max": {
+      "name": "CR-10 Max",
+      "connection": "sd",
+      "multicolor": false,
+      "max_x": 400,
+      "max_y": 400,
+      "max_z": 500
+    },
+    "cr-6-se": {
+      "name": "CR-6 SE",
+      "connection": "sd",
+      "multicolor": false,
+      "max_x": 235,
+      "max_y": 235,
+      "max_z": 250
+    },
+    "sermoon-d1": {
+      "name": "Sermoon D1",
+      "connection": "cloud",
+      "multicolor": false,
+      "max_x": 280,
+      "max_y": 250,
+      "max_z": 300
+    },
+    "k1": {
+      "name": "K1",
+      "connection": "cloud",
+      "multicolor": false,
+      "max_x": 220,
+      "max_y": 220,
+      "max_z": 250
+    },
+    "k1-max": {
+      "name": "K1 Max",
+      "connection": "cloud",
+      "multicolor": false,
+      "max_x": 300,
+      "max_y": 300,
+      "max_z": 300
+    },
+    "k1-se": {
+      "name": "K1 SE",
+      "connection": "cloud",
+      "multicolor": false,
+      "max_x": 220,
+      "max_y": 220,
+      "max_z": 250
+    },
+    "k2": {
+      "name": "K2",
+      "connection": "cloud",
+      "multicolor": false,
+      "max_x": 300,
+      "max_y": 300,
+      "max_z": 300
+    },
+    "raptor": {
+      "name": "Raptor",
+      "connection": "sd",
+      "multicolor": false,
+      "max_x": 400,
+      "max_y": 400,
+      "max_z": 400
+    },
+    "sparkx-i7": {
+      "name": "SPARKX i7",
+      "connection": "cloud",
+      "multicolor": false,
+      "max_x": 255,
+      "max_y": 255,
+      "max_z": 300
+    },
+    "halot-mage": {
+      "name": "HALOT-MAGE",
+      "connection": "cloud",
+      "multicolor": false,
+      "max_x": 192,
+      "max_y": 120,
+      "max_z": 200
+    },
+    "halot-mage-pro": {
+      "name": "HALOT-MAGE Pro",
+      "connection": "cloud",
+      "multicolor": false,
+      "max_x": 192,
+      "max_y": 120,
+      "max_z": 240
+    }
+  },
+  "Bambulab": {
+    "x1-carbon": {
+      "name": "X1 Carbon",
+      "connection": "cloud",
+      "multicolor": true,
+      "max_x": 256,
+      "max_y": 256,
+      "max_z": 256
+    },
+    "x1e": {
+      "name": "X1E",
+      "connection": "cloud",
+      "multicolor": true,
+      "max_x": 256,
+      "max_y": 256,
+      "max_z": 256
+    },
+    "p1p": {
+      "name": "P1P",
+      "connection": "cloud",
+      "multicolor": false,
+      "max_x": 256,
+      "max_y": 256,
+      "max_z": 256
+    },
+    "p1s": {
+      "name": "P1S",
+      "connection": "cloud",
+      "multicolor": true,
+      "max_x": 256,
+      "max_y": 256,
+      "max_z": 256
+    },
+    "p2s": {
+      "name": "P2S",
+      "connection": "cloud",
+      "multicolor": true,
+      "max_x": 256,
+      "max_y": 256,
+      "max_z": 256
+    },
+    "h2c": {
+      "name": "H2C",
+      "connection": "cloud",
+      "multicolor": true,
+      "max_x": 305,
+      "max_y": 320,
+      "max_z": 325
+    },
+    "h2d": {
+      "name": "H2D",
+      "connection": "cloud",
+      "multicolor": true,
+      "max_x": 350,
+      "max_y": 320,
+      "max_z": 325
+    },
+    "h2s": {
+      "name": "H2S",
+      "connection": "cloud",
+      "multicolor": false,
+      "max_x": 340,
+      "max_y": 320,
+      "max_z": 340
+    },
+    "a1": {
+      "name": "A1",
+      "connection": "cloud",
+      "multicolor": true,
+      "max_x": 256,
+      "max_y": 256,
+      "max_z": 256
+    },
+    "a1-mini": {
+      "name": "A1 Mini",
+      "connection": "cloud",
+      "multicolor": false,
+      "max_x": 180,
+      "max_y": 180,
+      "max_z": 180
+    }
+  }
+}
