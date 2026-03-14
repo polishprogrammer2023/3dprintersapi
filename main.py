@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 import re
 
 app = Flask(__name__)
-def get_bambu_price():
-    url = "https://eu.store.bambulab.com/pl/products/a1-mini"
+def get_bambu_price(printer):
+    url = f"https://eu.store.bambulab.com/pl/products/{printer}"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
@@ -55,9 +55,9 @@ def get_model(brand, model):
     if brand_cap in data and model in data[brand_cap]:
         return jsonify(data[brand_cap][model])
     return jsonify({"error": "Model not found"}), 404
-@app.route('/printer/Bambulab/a1-mini/price', methods=['GET'])
-def get_price_endpoint():
-    result = get_bambu_price()
+@app.route('/printer/Bambulab/<printer>/price', methods=['GET'])
+def get_price_endpoint(printer):
+    result = get_bambu_price(printer)
     # Zwracamy to, co wypluje funkcja (albo cenę, albo konkretny błąd)
     status = 200 if "price" in result else 500
     return jsonify(result), status
